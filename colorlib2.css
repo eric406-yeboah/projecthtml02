@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ #bgimg{
+   background-image: url(./image.jpg);
+   height: 100vh;
+   width: 30%;
+   background-size:cover ;
+   background-position-x: 40%;
+ }
+
+ .inputstyle,#pagetitle{
+  display: block;
+}
+
+.inputstyle{
+  padding: 11px;
+  width:80% ;
+  background-color: #efefef;
+  border: none;
+  margin: 8px;
+}
+
+body{
+  background-color: rgb(194, 189, 189);
+}
+
+#container{
+  box-shadow: 0 4px 4px rgba(0,0,0,0.1),0 8px 16px rgba(0,0,0,0.1);
+  border: 1px solid white;
+  width: 25%;
+  background-color: white;
+  margin-left: 50%;
+  margin-right: 10%;
+  height: 60vh;
+  padding: 20px;
+  margin-top: -40%;
+
+}
+
+#pagetitle{
+  text-align: center;
+  margin-top:2rem;
+}
+
+#lb_chk{
+  accent-color: orangered;
+}
+
+#txt_forgot{
+  display: block;
+  float: right;
+}
+
+#infocontainer{
+  height: 5vh;
+}
+
+#btnlogin{
+  display: block;
+  width: 82%;
+  height: 100;
+  background-color: orangered;
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 3rem;
+
+}
+ 
+ 
+ 
+ 
